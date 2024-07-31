@@ -1,0 +1,4 @@
+Data structure is basically used to store and organise you data.
+Algorithm is basically the way you will write your program.
+
+Great way to learn: https://www.youtube.com/watch?v=CBYHwZcbD-s&t=705s (Bro Code)

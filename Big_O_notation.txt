@@ -1,0 +1,35 @@
+It means "How code slows as data grows"
+Describes the preformance of an algorithm as the amount of data increases.
+It is machine independent.
+Ignores small operations such as 0(n+1) -> 0(n)
+Where n is like a varible, as in the amount of data.
+Big O notation is a way to describe how the performance or efficiency of an algorithm scales as the size of the input increases. 
+It gives an upper bound on the time or space required, helping us understand the worst-case scenario.
+
+O(1) - Constant Time: The algorithm's performance is independent of the input size. 
+It takes a fixed amount of time, regardless of how big the input is. This is the most efficient.
+Example: Accessing an element in an array by index.
+
+O(log n) - Logarithmic Time: The performance grows logarithmically as the input size increases. 
+It’s very efficient for large datasets.
+Example: Binary search in a sorted array.
+
+O(n) - Linear Time: The time required grows linearly with the input size. 
+This is straightforward and usually manageable for moderate-sized inputs.
+Example: Linear search in an array.
+
+O(n log n) - Linearithmic Time: Common in algorithms that divide a problem into smaller subproblems, 
+solve them, and combine the results. This is often seen in efficient sorting algorithms.
+Example: Merge sort, quicksort (average case).
+
+O(n^2) - Quadratic Time: The time required grows quadratically as the input size increases. 
+This becomes inefficient for large datasets.
+Example: Bubble sort, insertion sort.
+
+O(2^n) - Exponential Time: The performance doubles with each additional element in the input, 
+leading to very rapid growth in time required. This is usually impractical for large inputs.
+Example: Recursive algorithms solving the Tower of Hanoi.
+
+O(n!) - Factorial Time: The performance grows factorially with the input size. 
+This is the least efficient and is typically seen in brute-force algorithms that explore all possible permutations.
+Example: Solving the traveling salesman problem using brute force.
